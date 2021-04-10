@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="slide.js" type="text/javascript"></script>
+</head>
+<body onload="showSlides()">
+            <div class="content">
+                <div class="slide-show">
+                    <div class="photo-block">
+                        <div class="slide-photo">
+                            <img src="slide_show/1.jpg">
+                        </div>
+
+                        <div class="slide-photo">
+                            <img src="slide_show/2.jpg">
+                        </div>
+
+                        <div class="slide-photo">
+                            <img src="slide_show/3.jpg">
+                        </div>
+
+                        <a class="btn pref" onclick="btnPN(-1)"><---</a>
+                        <a class="btn next" onclick="btnPN(1)">---></a>
+                    </div>
+                    
+                <div class="slide-pages">
+                    <span class="dot" onclick="pageClick(1)"></span>
+                    <span class="dot" onclick="pageClick(2)"></span>
+                    <span class="dot" onclick="pageClick(3)"></span>
+                </div>
+
+
+
+                </div>
+            </div>
+
+
+</body>
+</html>
