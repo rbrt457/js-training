@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00542b8f-987c-42b1-99b2-b2de4f84897b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Isograms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reverse Letter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +40,17 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.ц.js">
+  <component name="RunManager" selected="Node.js.Isograms.js">
+    <configuration name="Isograms.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Isograms.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Reverse Letter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Reverse Letter.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="ц.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/slide-show/ц.js" working-dir="$PROJECT_DIR$/slide-show">
+      <method v="2" />
+    </configuration>
+    <configuration name="highest scored word.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/highest scored word.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="slide.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/slide-show/slide.js" working-dir="$PROJECT_DIR$/slide-show">
@@ -47,6 +58,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Isograms.js" />
+        <item itemvalue="Node.js.highest scored word.js" />
+        <item itemvalue="Node.js.Reverse Letter.js" />
         <item itemvalue="Node.js.ц.js" />
         <item itemvalue="Node.js.slide.js" />
       </list>
@@ -63,10 +77,22 @@
       <workItem from="1618075387115" duration="7452000" />
       <workItem from="1618086609860" duration="4584000" />
       <workItem from="1618092885414" duration="508000" />
+      <workItem from="1618771678615" duration="2578000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
