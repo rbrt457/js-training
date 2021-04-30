@@ -94,3 +94,41 @@ function timer(time){
         console.log(time - seconds + 1)
     }
 }
+
+function testProm (){
+    let firstProm = new Promise( function (resolve, reject) {
+        setTimeout(() => {
+            let fr = 'First'
+            console.log('First prom TEST')
+            resolve(fr)
+        }, 3000)
+    })
+
+    firstProm.then((fr) => {
+        return new Promise( function (resolve, reject) {
+            setTimeout(() => {
+                console.log('Second prom TEST ' + fr)
+                fr = 'Second'
+                resolve(fr)
+            }, 2000)
+        })
+
+        .then((fr) => {
+            let thirdProm = new Promise( (resolve, reject) => {
+                setInterval(() => {
+                    console.log('Third prom TEST ' + fr)
+                }, 1000)
+            })
+        })
+
+        .then(() => {
+            let fourth = new Promise( (resolve, reject) => {
+                setTimeout(() => {
+                    console.log('Four prom TEST ')
+                }, 5000)
+            })
+        })
+
+    })
+}
+

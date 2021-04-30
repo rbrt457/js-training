@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="slide.js" type="text/javascript"></script>
 </head>
-<body onload="showSlides()">
+<body onload="compact()">
             <div class="content">
                 <div class="slide-show">
                     <div class="photo-block">
@@ -22,8 +22,8 @@
                             <img src="slide_show/3.jpg">
                         </div>
 
-                        <a class="btn pref" onclick="btnPN(-1)"><---</a>
-                        <a class="btn next" onclick="btnPN(1)">---></a>
+                        <a class="btn pref" id="p" onclick="btnClick(-1)" ><---</a>
+                        <a class="btn next" id="n" onclick="btnClick(1)" >---></a>
                     </div>
                     
                 <div class="slide-pages">

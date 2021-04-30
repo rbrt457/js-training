@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00542b8f-987c-42b1-99b2-b2de4f84897b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slide-show/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/slide-show/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slide-show/slide.js" beforeDir="false" afterPath="$PROJECT_DIR$/slide-show/slide.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +51,8 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.Title Case.js">
+  <component name="RunManager" selected="Node.js.slide.js">
     <configuration name="Isograms.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Isograms.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="Reverse Letter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Reverse Letter.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="Title Case.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Title Case.js" working-dir="$PROJECT_DIR$">
@@ -66,13 +64,16 @@
     <configuration name="highest scored word.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/highest scored word.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="slide.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/slide-show/slide.js" working-dir="$PROJECT_DIR$/slide-show">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.slide.js" />
         <item itemvalue="Node.js.Title Case.js" />
         <item itemvalue="Node.js.converter.js" />
         <item itemvalue="Node.js.Isograms.js" />
         <item itemvalue="Node.js.highest scored word.js" />
-        <item itemvalue="Node.js.Reverse Letter.js" />
       </list>
     </recent_temporary>
   </component>
@@ -97,6 +98,12 @@
       <workItem from="1619262951586" duration="911000" />
       <workItem from="1619374833679" duration="1995000" />
       <workItem from="1619386983356" duration="1776000" />
+      <workItem from="1619458395240" duration="7456000" />
+      <workItem from="1619540754962" duration="3190000" />
+      <workItem from="1619544864359" duration="911000" />
+      <workItem from="1619552395864" duration="181000" />
+      <workItem from="1619556156921" duration="4280000" />
+      <workItem from="1619622250351" duration="2743000" />
     </task>
     <servers />
   </component>
