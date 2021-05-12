@@ -34,9 +34,10 @@ const anotherPers = {
 // Object глобальный объект. Новый метод для объектов
 Object.prototype.personInfo = function (job, tel){
         console.group(`${this.name} info:`)
-        console.log(`Age is ${this.age}`)
-        console.log(`Job is ${job}`)
-        console.log(`Telephone is ${tel}`)
+        console.log(`Name: ${this.name}`)
+        console.log(`Age: ${this.age}`)
+        console.log(`Job: ${job}`)
+        console.log(`Telephone: ${tel}`)
         console.groupEnd()
     }
 
@@ -131,4 +132,41 @@ function testProm (){
 
     })
 }
+// Глава 6: Создание объекта с помощью Object.create, get, set
+const person2 = Object.create({
+    calculateAge(){
+        console.log('Age:', new Date().getFullYear() - this.birthYear)
+    }
+}, {
+    name: {
+        value: 'Robert',
+        enumerable: true,
+        writable: true,
+        configurable: true
+    },
+    birthYear: {
+        value: 1996,
+        enumerable: true,
+        writable: true,
+        configurable: false
+    },
+    age: {
+        enumerable: true,
+        get(){
+            return new Date().getFullYear() - this.birthYear
+        },
+        set(value) {
+            document.body.style.background = 'black'
+            console.log("Set age", value)
+        }
+    }
+})
 
+// person2.name = "Ne Robert"
+for (let key in person2){
+    if(person2.hasOwnProperty(key)){
+        console.log('Key', key)
+    }
+
+}
+///Конец 6
