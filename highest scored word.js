@@ -5,11 +5,9 @@ function high(x){
     let highest = ''
     for(let i = 0; i < toArr.length; i++){
         scoreArr.push([])
-
         for(let j = 0; j < toArr[i].length; j++){
             scoreArr[i].push(toArr[i].charCodeAt(j)-96)
         }
-
         result.push(scoreArr[i].reduce((x, y) => x + y))
     }
     highest = toArr[result.indexOf(Math.max.apply(null, result))]

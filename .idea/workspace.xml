@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00542b8f-987c-42b1-99b2-b2de4f84897b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dubstep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Word a10n (abbreviation).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fighting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kebabize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mexican_wave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rot13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the_vowel_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz.js" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/highest scored word.js" beforeDir="false" afterPath="$PROJECT_DIR$/highest scored word.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,39 +50,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../By-template/Task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.js.js">
-    <configuration name="Isograms.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Isograms.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.Dubstep.js">
+    <configuration name="Dubstep.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Dubstep.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="Title Case.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Title Case.js" working-dir="$PROJECT_DIR$">
+    <configuration name="Word a10n (abbreviation).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Word a10n (abbreviation).js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="converter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/converter.js" working-dir="$PROJECT_DIR$">
+    <configuration name="kebabize.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/kebabize.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="js.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js.js" working-dir="$PROJECT_DIR$">
+    <configuration name="persistence.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/persistence.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="slide.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/slide-show/slide.js" working-dir="$PROJECT_DIR$/slide-show">
+    <configuration name="the_vowel_code.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/the_vowel_code.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.js.js" />
-        <item itemvalue="Node.js.slide.js" />
-        <item itemvalue="Node.js.Title Case.js" />
-        <item itemvalue="Node.js.converter.js" />
-        <item itemvalue="Node.js.Isograms.js" />
+        <item itemvalue="Node.js.Dubstep.js" />
+        <item itemvalue="Node.js.Word a10n (abbreviation).js" />
+        <item itemvalue="Node.js.the_vowel_code.js" />
+        <item itemvalue="Node.js.kebabize.js" />
+        <item itemvalue="Node.js.persistence.js" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +119,19 @@
       <workItem from="1620825049802" duration="3059000" />
       <workItem from="1621270442964" duration="2974000" />
       <workItem from="1621354234173" duration="214000" />
+      <workItem from="1624385335881" duration="1647000" />
+      <workItem from="1624634980346" duration="1480000" />
+      <workItem from="1624639817119" duration="2316000" />
+      <workItem from="1624911594784" duration="2541000" />
+      <workItem from="1625076150359" duration="4660000" />
+      <workItem from="1625086747640" duration="3966000" />
+      <workItem from="1625220849177" duration="2773000" />
+      <workItem from="1625232807807" duration="2701000" />
+      <workItem from="1625244466128" duration="3084000" />
+      <workItem from="1625397173601" duration="3441000" />
+      <workItem from="1625417593540" duration="2307000" />
+      <workItem from="1625424961196" duration="1400000" />
+      <workItem from="1625440091493" duration="32000" />
     </task>
     <servers />
   </component>
